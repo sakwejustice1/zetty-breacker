@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Shadow-zet OS Architecture — OS-Level Solution</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <meta name="description" content="How Shadow-zet leverages OS-level design to deliver integrated security, networking, logging, AI and labs." />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="index.html">
+        <img src="/assets/logo.svg" alt="Shadow-zet logo" class="logo">
+        <span class="brand-title">Shadow-zet OS</span>
+      </a>
+      <nav class="main-nav" aria-label="Primary">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="problems.html">Real Problems</a></li>
+          <li><a href="failures.html">Why Tools Fail</a></li>
+          <li><a href="architecture.html" class="active">OS Architecture</a></li>
+          <li><a href="labs.html">Cybersecurity Labs</a></li>
+          <li><a href="soc.html">SOC / SIEM</a></li>
+          <li><a href="blue-team.html">Blue-Team</a></li>
+          <li><a href="certification.html">Certification</a></li>
+          <li><a href="ethics.html">Ethics & Trust</a></li>
+          <li><a href="deployment.html">Deployment & ROI</a></li>
+          <li><a href="vision.html">Vision</a></li>
+          <li><a href="investors.html" class="cta">Investors</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h1>Shadow-zet OS Architecture</h1>
+    <p class="lede">An OS built for visibility, containment, and operational guidance from boot to UI.</p>
+
+    <section>
+      <h2>Problem: Lack of Authoritative Visibility</h2>
+      <p>Security and observability layers sitting above the OS receive filtered or delayed data, making correlation and enforcement imprecise.</p>
+
+      <h3>Impact</h3>
+      <p>Investigations take longer and remediation can be incomplete—causing repeat incidents and compliance gaps.</p>
+
+      <h3>Why Existing Solutions Fail</h3>
+      <p>Agent-based systems often miss early-stage activity, and network-only systems can't see end-host state.</p>
+
+      <h3>How Shadow-zet Solves It</h3>
+      <p>Shadow-zet adds OS-first telemetry, capability-based security, and a boot-to-UI design that ensures trusted signals from the moment a system powers on.</p>
+
+      <h3>Why an OS-Level Approach Is Necessary</h3>
+      <p>OS-level control ensures the integrity of telemetry and policy enforcement, making downstream analytics and automation reliable.</p>
+    </section>
+
+    <section>
+      <h2>Key Architectural Pillars</h2>
+      <ul class="pillars">
+        <li><strong>Boot-to-UI Design</strong> — Trustable initialization, secure firmware checks, and an auditable startup chain.</li>
+        <li><strong>Capability-Based Security</strong> — Fine-grained, minimal privileges for processes and services.</li>
+        <li><strong>Integrated Networking & Isolation</strong> — Configurable virtual and real network segments with observable policy enforcement.</li>
+        <li><strong>Unified Logging & Telemetry</strong> — Native schemas with high-fidelity event streams for analytics and forensics.</li>
+        <li><strong>Built-in AI Guidance</strong> — Contextual playbooks, triage assistance, and configuration checks embedded in the OS.</li>
+      </ul>
+
+      <h3>Virtual vs. Real Network Isolation</h3>
+      <p>Shadow-zet provides safe lab networks that mimic real topologies while protecting production boundaries. Virtualized isolation runs realistic traffic and attack patterns without exposing live assets.</p>
+
+      <h3>Built-In AI Guidance</h3>
+      <p>AI augments human operators with prioritized findings, suggested mitigation steps, and training prompts. The AI operates on trusted telemetry and respects explicit policy and audit trails.</p>
+    </section>
+
+    <section>
+      <h2>How This Reduces Complexity and Cost</h2>
+      <p>By moving core capabilities into the OS, organizations require fewer third-party agents, simplified configuration, and lower operational overhead—reducing personnel and licensing expenses.</p>
+
+      <h3>Why an OS is a Long-Term Foundation</h3>
+      <p>Platform-level solutions last beyond vendor cycles: policies and telemetry are portable across infrastructure and provide a consistent basis for continuous improvement.</p>
+    </section>
+
+    <footer class="site-footer small">
+      <div class="container footer-inner">
+        <small><a href="index.html">Home</a> • <a href="failures.html">Why Tools Fail</a></small>
+      </div>
+    </footer>
+  </main>
+
+  <script src="/js/main.js"></script>
+</body>
+</html>

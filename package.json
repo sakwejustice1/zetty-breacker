@@ -1,0 +1,15 @@
+{
+  "name": "shadow-zet-site",
+  "version": "1.0.0",
+  "description": "Shadow-zet OS marketing site (dynamic preview server)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^3.1.9",
+    "express": "^4.18.2"
+  }
+}
